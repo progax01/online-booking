@@ -1,0 +1,154 @@
+.auth-wrapper{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 17vh;
+
+}
+.home-wrapper{
+    display: flex;
+    margin: 17vh 0 0;
+   align-self: center;
+   justify-content: center;
+
+
+}
+.home-inner-wrapper{
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#f8f0f0;
+
+}
+.home-btns{
+    display: inline-block;
+    all: unset;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ff6701;
+    width: 120px;
+    height: 28px;
+    border: 0px solid #ff6701;
+    color:#fff;
+    font-size: 1.2rem;
+}
+.home-btns:visited {
+    background-color: #14bce6;
+}
+.form{
+    display: grid;
+    padding: 20px;
+    width: 380px;
+    height: 360px; 
+    background-color:#f8f0f0;
+    border-radius: 15px;
+}
+.form button{
+    display: inline-block;
+    all: unset;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ff6701;
+    width: 245px;
+    height: 28px;
+    margin: 3px 0 0 50px;
+    border: 1px solid #ff6701;
+    border-radius: 15px;
+    color:#fff;
+    font-size: 1.2rem;
+    
+}
+.form label{
+    display: inline-block;
+    all: unset;
+    font-size: 1.2rem;
+    padding: 6px 0 0 40px;
+    
+    
+}
+.form input{
+     all: unset;
+    display: inline-block;
+    width: 245px;
+    height: 28px;
+    margin: 3px 0 0 50px;
+    border:  solid 2px black;
+    border-radius: 10px;
+}
+#fpass{
+    font-size: 1.05rem;
+    padding-left: 50px;
+    color: blue;
+}
+.auth-link{
+    font-size: 1.1rem;
+    color: blue;
+}
+#warn-message{
+
+    font-size: 1.1rem;
+    color: rgb(241, 10, 10);
+}
+
+.form p{
+    padding-left: 50px;
+}
+
+#auth-otp-label{
+margin: 0 0 0px 20px;
+font-size: 1.5rem;
+}
+#auth-otp-para{
+margin-left: 20px;
+}
+#auth-otp-email{
+    color:blue;
+}
+a:hover, a.active{
+    background: none;
+  }
+
+@media (max-width:500px) {
+    .home-wrapper{
+        margin: 16vh 3vw 0;
+    }
+    .home-inner-wrapper{
+     width: 90vw;
+    }
+
+    .form{
+        width: 90vw;
+        height: 90vw;
+    }
+    .form input{
+        width:70vw;
+        height: 30px;
+        margin: 5px 10px;
+
+    }
+    .form label{
+        padding: 0 15px;
+       
+    }
+    #fpass{
+        font-size: 1.05rem;
+       padding-left: 35px;
+    }
+    .form button{
+        margin-left: 24px;
+        width:70vw;
+        height: 30px;
+        margin: 5px 10px;
+    }
+    .form p{
+        padding-left: 2.5vw;
+    }
+    #auth-otp-label{
+        margin: 0 0 15px 15px;
+        font-size: 1.3rem;
+        }
+    #auth-otp-para{
+            margin: 10px  0 0 0;
+        }
+}
+

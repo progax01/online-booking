@@ -1,0 +1,13 @@
+.home-warpper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.home-container{
+    width: 30vw;
+    height:40vh;
+    background-color: rgb(243, 240, 240);
+    margin-top: 20px;
+
+}
